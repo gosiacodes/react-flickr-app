@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Header from "./Header";
+import SearchField from "./SearchField";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  addTextToSearch = (textToSearch) => {
+    console.log("text to search: ", textToSearch);
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <SearchField addTextToSearch={this.addTextToSearch} />
+        <p>Winter is coming... ;)</p>
+      </div>
+    );
+  }
 }
 
 export default App;
