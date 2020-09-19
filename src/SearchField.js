@@ -2,18 +2,22 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 
 class SearchField extends Component {
+  // State
   state = {
     textToSearch: "",
   };
 
+  // Function on change
   onChange = (e) => this.setState({ textToSearch: e.target.value });
 
+  // Function on submit
   onSubmit = (e) => {
     e.preventDefault();
     this.props.addTextToSearch(this.state.textToSearch);
     this.setState({ textToSearch: "" });
   };
 
+  // Render with input components
   render() {
     return (
       <form onSubmit={this.onSubmit} style={{ display: "flex" }}>

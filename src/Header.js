@@ -1,9 +1,10 @@
 import React from "react";
 
+// Function with header
 function Header() {
   return (
     <header style={headerStyle}>
-      <h1>Flickr App</h1>
+      <h1>Flickr Search App</h1>
     </header>
   );
 }
