@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import SearchField from "./SearchField";
+import Gallery from "./Gallery";
 import "./App.css";
 
 class App extends Component {
@@ -9,7 +10,6 @@ class App extends Component {
     super();
     this.state = {
       pictures: [],
-      indexValue: 0,
       textToSearch: "hamster",
     };
   }
@@ -56,44 +56,13 @@ class App extends Component {
     }
   };
 
-  // Handler to next-button
-  nextHandler = () => {
-    let currentIndex = this.state.indexValue;
-    if (currentIndex === 19) {
-      currentIndex = 0;
-    } else {
-      currentIndex++;
-    }
-    this.setState({ indexValue: currentIndex });
-  };
-
-  // Handler to prev-button
-  prevHandler = () => {
-    let currentIndex = this.state.indexValue;
-    if (currentIndex === 0) {
-      currentIndex = 19;
-    } else {
-      currentIndex--;
-    }
-    this.setState({ indexValue: currentIndex });
-  };
-
   // Render with components
   render() {
     return (
       <div className="App">
         <Header />
         <SearchField reloadImages={this.reloadImages} />
-        <div>{this.state.pictures[this.state.indexValue]}</div>
-        <div>
-          <button className="btn" onClick={this.prevHandler}>
-            Prev
-          </button>
-          &nbsp;
-          <button className="btn" onClick={this.nextHandler}>
-            Next
-          </button>
-        </div>
+        <Gallery pictures={this.state.pictures} />
       </div>
     );
   }

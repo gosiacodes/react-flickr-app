@@ -9,6 +9,7 @@ function Header() {
   );
 }
 
+// Header styling
 const headerStyle = {
   background: "LightSeaGreen",
   color: "white",
