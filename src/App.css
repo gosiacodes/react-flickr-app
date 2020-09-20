@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.search-btn {
+.btn {
   display: inline-block;
   border: outset;
   background: turquoise;
@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.search-btn:hover {
+.btn:hover {
   background: MediumTurquoise;
 }
 

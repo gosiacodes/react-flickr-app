@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-flickr-app/static/css/main.fa341618.chunk.css",
-    "main.js": "/react-flickr-app/static/js/main.e208bd0f.chunk.js",
-    "main.js.map": "/react-flickr-app/static/js/main.e208bd0f.chunk.js.map",
+    "main.css": "/react-flickr-app/static/css/main.e27ac572.chunk.css",
+    "main.js": "/react-flickr-app/static/js/main.4bab2f11.chunk.js",
+    "main.js.map": "/react-flickr-app/static/js/main.4bab2f11.chunk.js.map",
     "runtime-main.js": "/react-flickr-app/static/js/runtime-main.e64589c8.js",
     "runtime-main.js.map": "/react-flickr-app/static/js/runtime-main.e64589c8.js.map",
     "static/js/2.31400313.chunk.js": "/react-flickr-app/static/js/2.31400313.chunk.js",
     "static/js/2.31400313.chunk.js.map": "/react-flickr-app/static/js/2.31400313.chunk.js.map",
     "index.html": "/react-flickr-app/index.html",
-    "precache-manifest.19f7167ac49a589e5af2b03c4446c77f.js": "/react-flickr-app/precache-manifest.19f7167ac49a589e5af2b03c4446c77f.js",
+    "precache-manifest.2446b6102a0d61dcfcf9fd8e4dae19f3.js": "/react-flickr-app/precache-manifest.2446b6102a0d61dcfcf9fd8e4dae19f3.js",
     "service-worker.js": "/react-flickr-app/service-worker.js",
-    "static/css/main.fa341618.chunk.css.map": "/react-flickr-app/static/css/main.fa341618.chunk.css.map",
+    "static/css/main.e27ac572.chunk.css.map": "/react-flickr-app/static/css/main.e27ac572.chunk.css.map",
     "static/js/2.31400313.chunk.js.LICENSE.txt": "/react-flickr-app/static/js/2.31400313.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e64589c8.js",
     "static/js/2.31400313.chunk.js",
-    "static/css/main.fa341618.chunk.css",
-    "static/js/main.e208bd0f.chunk.js"
+    "static/css/main.e27ac572.chunk.css",
+    "static/js/main.4bab2f11.chunk.js"
   ]
 }

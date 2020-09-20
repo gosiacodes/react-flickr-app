@@ -3,9 +3,12 @@ import PropTypes from "prop-types";
 
 class SearchField extends Component {
   // State
-  state = {
-    textToSearch: "",
-  };
+  constructor() {
+    super();
+    this.state = {
+      textToSearch: "",
+    };
+  }
 
   // Function on change
   onChange = (e) => this.setState({ textToSearch: e.target.value });
@@ -13,7 +16,7 @@ class SearchField extends Component {
   // Function on submit
   onSubmit = (e) => {
     e.preventDefault();
-    this.props.addTextToSearch(this.state.textToSearch);
+    this.props.reloadImages(this.state.textToSearch);
     this.setState({ textToSearch: "" });
   };
 
@@ -32,7 +35,7 @@ class SearchField extends Component {
         <input
           type="submit"
           value="Search"
-          className="search-btn"
+          className="btn"
           style={{ flex: 1, marginRight: "10px" }}
         />
       </form>
@@ -41,7 +44,7 @@ class SearchField extends Component {
 }
 
 SearchField.propTypes = {
-  addTextToSearch: PropTypes.func.isRequired,
+  reloadImages: PropTypes.func.isRequired,
 };
 
 export default SearchField;
