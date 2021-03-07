@@ -1,4 +1,5 @@
-React flickr app - school work at Advanced JavaScript course (2020)
+# React flickr app
+School work at Advanced JavaScript course (2020)
 
 https://margareta75.github.io/react-flickr-app/
 
