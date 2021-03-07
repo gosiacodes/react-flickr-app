@@ -1,3 +1,7 @@
+React flickr app - school work at Advanced JavaScript course (2020)
+
+https://margareta75.github.io/react-flickr-app/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
