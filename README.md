@@ -1,7 +1,13 @@
-# React flickr app
-School work at Advanced JavaScript course (2020)
+# :sparkles: React Flickr Search App :sparkles:
+Flickr Search App - school project made with React.js at Advanced JavaScript course (2020)
 
 https://margareta75.github.io/react-flickr-app/
+
+## :pushpin: _How does the application work?_
+
+Enter text to search pictures in Flickr application.
+
+Result shows 20 pictures which you can watch in the slideshow (back and forth).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
