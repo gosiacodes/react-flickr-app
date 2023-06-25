@@ -1,7 +1,7 @@
 # :sparkles: React Flickr Search App :sparkles:
 Flickr Search App - school project made with React.js at Advanced JavaScript course (2020)
 
-https://margareta75.github.io/react-flickr-app/
+https://gosiacodes.github.io/react-flickr-app/
 
 ## :pushpin: _How does the application work?_
 
